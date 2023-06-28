@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{6495ab09-ecd2-437f-90f1-d95d603222db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DirectX">
+      <UniqueIdentifier>{64e7a170-f5c8-49a9-9445-3b35c76201ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DirectX">
+      <UniqueIdentifier>{a6e24834-a2a2-4eea-b228-477d539b7e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object">
+      <UniqueIdentifier>{67676ff2-fb75-4b31-9ce2-abd1a0faa4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{e08c9859-e73f-4254-adc3-631a72eef6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{5a692cb0-5c73-4348-96b1-ccca1011a116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Shader">
+      <UniqueIdentifier>{8ea71bf0-15ea-4f7b-8e32-f8ff61bde8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{419a5d8d-6e71-457c-ab80-b46df524a887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Fade">
+      <UniqueIdentifier>{3d0c3c75-044d-40c6-8e7c-fa193a5d5c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Fade">
+      <UniqueIdentifier>{2f6f36e5-75be-4674-864c-d6131e95a058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Character">
+      <UniqueIdentifier>{2b97dcfc-cc37-4eff-a86a-323762083262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Character">
+      <UniqueIdentifier>{56e85ef8-6dc9-4af3-b504-7aae92635e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sprite">
+      <UniqueIdentifier>{afd62dd9-ab54-4f2d-a0d6-c3ea173173f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Sprite">
+      <UniqueIdentifier>{090bfd4d-2917-4eae-a80e-08272f3b44e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage">
+      <UniqueIdentifier>{e60af94b-89fd-45b7-9bf2-9681a8255263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Stage">
+      <UniqueIdentifier>{a285126b-d290-4efe-b87d-ff70c319a610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Hit">
+      <UniqueIdentifier>{d2d9a23f-ba40-4748-b5ce-b4fc32929b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Hit">
+      <UniqueIdentifier>{24983100-5e00-460c-8fc5-f2a53b5630e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Game">
+      <UniqueIdentifier>{db8257a1-39fb-4374-9393-e35669f4cbb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Game">
+      <UniqueIdentifier>{dc054734-bce0-48f3-8bb6-4c967cb75082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{fa7740f1-e49e-4367-b663-27c9a714c311}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winmain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3d.cpp">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimObject.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>ソース ファイル\System\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade_Bubble.cpp">
+      <Filter>ソース ファイル\System\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>ソース ファイル\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>ソース ファイル\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimSprite.cpp">
+      <Filter>ソース ファイル\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>ソース ファイル\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Bath_Stage.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Table_Stage.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Room_Stage.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="HitSquare.cpp">
+      <Filter>ソース ファイル\System\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="HitCircle.cpp">
+      <Filter>ソース ファイル\System\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade_Dogrun.cpp">
+      <Filter>ソース ファイル\System\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Babble.cpp">
+      <Filter>ソース ファイル\System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>ソース ファイル\System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Dirt.cpp">
+      <Filter>ソース ファイル\System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>ソース ファイル\System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Frisbee.cpp">
+      <Filter>ソース ファイル\System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SlipperyFloor.cpp">
+      <Filter>ソース ファイル\System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Duck.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3d.h">
+      <Filter>ヘッダー ファイル\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ps.h">
+      <Filter>ヘッダー ファイル\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="vs.h">
+      <Filter>ヘッダー ファイル\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Select.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimObject.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>ヘッダー ファイル\System\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade_Bubble.h">
+      <Filter>ヘッダー ファイル\System\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>ヘッダー ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>ヘッダー ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>ヘッダー ファイル\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimSprite.h">
+      <Filter>ヘッダー ファイル\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Bath_Stage.h">
+      <Filter>ヘッダー ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ヘッダー ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Table_Stage.h">
+      <Filter>ヘッダー ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Room_Stage.h">
+      <Filter>ヘッダー ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>ヘッダー ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="HitCircle.h">
+      <Filter>ヘッダー ファイル\System\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="HitSquare.h">
+      <Filter>ヘッダー ファイル\System\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade_Dogrun.h">
+      <Filter>ヘッダー ファイル\System\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>ヘッダー ファイル\System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Babble.h">
+      <Filter>ヘッダー ファイル\System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Dirt.h">
+      <Filter>ヘッダー ファイル\System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>ヘッダー ファイル\System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Frisbee.h">
+      <Filter>ヘッダー ファイル\System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SlipperyFloor.h">
+      <Filter>ヘッダー ファイル\System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Duck.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ps.hlsl" />
+    <FxCompile Include="vs.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Test.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\images\icon.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

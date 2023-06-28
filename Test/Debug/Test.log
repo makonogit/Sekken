@@ -1,0 +1,11 @@
+﻿  SlipperyFloor.cpp
+  Stage.cpp
+c:\users\makos\desktop\2022 hew\test\test\dog.h(32): warning C4005: 'PI': マクロが再定義されました。
+  c:\users\makos\desktop\2022 hew\test\test\hitsquare.h(14): note: 'PI' の以前の定義を確認してください
+c:\users\makos\desktop\2022 hew\test\test\stage.cpp(12): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\makos\desktop\2022 hew\test\test\stage.cpp(13): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\makos\desktop\2022 hew\test\test\stage.cpp(242): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\makos\desktop\2022 hew\test\test\stage.cpp(338): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\makos\desktop\2022 hew\test\test\stage.cpp(366): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  Test.vcxproj -> C:\Users\makos\Desktop\2022 HEW\Test\Debug\Test.exe
